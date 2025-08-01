@@ -1,3 +1,5 @@
+![Webhookachu logo](./webhookachu-icon.jpg)
+
 # Webhookachu
 
 **Webhookachu** is a lightweight application that helps you receive, inspect, and test webhooks.
