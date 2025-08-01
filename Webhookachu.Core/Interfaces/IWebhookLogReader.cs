@@ -1,4 +1,4 @@
-namespace Webhookachu.Services;
+namespace Webhookachu.Core.Interfaces;
 
 public interface IWebhookLogReader
 {

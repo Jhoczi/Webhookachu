@@ -1,8 +1,8 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
-using Webhookachu.Models;
-using Webhookachu.Services;
+using Webhookachu.Core.Interfaces;
+using Webhookachu.Core.Models;
 
 namespace Webhookachu.Endpoints;
 

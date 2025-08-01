@@ -1,6 +1,6 @@
 using System.Text;
 using System.Text.Json;
-using Webhookachu.Contracts;
+using Webhookachu.Core.Contracts;
 
 namespace Webhookachu.Endpoints;
 

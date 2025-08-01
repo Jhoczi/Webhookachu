@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhookachu", "Webhookachu\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhookachu.Tests", "Webhookachu.Tests\Webhookachu.Tests.csproj", "{AB27ECE4-9D02-4174-9D83-5E2AB18F5959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhookachu.Core", "Webhookachu.Core\Webhookachu.Core.csproj", "{0E95187F-93D4-4BBF-BB84-26CEA943DBF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{AB27ECE4-9D02-4174-9D83-5E2AB18F5959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB27ECE4-9D02-4174-9D83-5E2AB18F5959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB27ECE4-9D02-4174-9D83-5E2AB18F5959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E95187F-93D4-4BBF-BB84-26CEA943DBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E95187F-93D4-4BBF-BB84-26CEA943DBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E95187F-93D4-4BBF-BB84-26CEA943DBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E95187F-93D4-4BBF-BB84-26CEA943DBF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

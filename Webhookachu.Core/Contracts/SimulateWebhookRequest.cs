@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace Webhookachu.Contracts;
+namespace Webhookachu.Core.Contracts;
 
 public class SimulateWebhookRequest
 {

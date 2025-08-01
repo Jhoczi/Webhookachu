@@ -1,7 +1,10 @@
-using Microsoft.Extensions.Options;
-using Webhookachu.Models;
 
-namespace Webhookachu.Services;
+
+using Microsoft.Extensions.Options;
+using Webhookachu.Core.Interfaces;
+using Webhookachu.Core.Models;
+
+namespace Webhookachu.Core.Services;
 
 public class FileWebhookLogReader(IOptions<WebhookLogStorageOptions> options) : IWebhookLogReader
 {

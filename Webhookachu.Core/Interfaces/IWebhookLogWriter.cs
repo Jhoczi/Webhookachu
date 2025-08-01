@@ -1,6 +1,6 @@
-using Webhookachu.Models;
+using Webhookachu.Core.Models;
 
-namespace Webhookachu.Services;
+namespace Webhookachu.Core.Interfaces;
 
 public interface IWebhookLogWriter
 {

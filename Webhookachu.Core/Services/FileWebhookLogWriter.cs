@@ -1,8 +1,10 @@
 using System.Text.Json;
 using Microsoft.Extensions.Options;
-using Webhookachu.Models;
+using Webhookachu.Core.Interfaces;
+using Webhookachu.Core.Models;
 
-namespace Webhookachu.Services;
+
+namespace Webhookachu.Core.Services;
 
 public class FileWebhookLogWriter(IOptions<WebhookLogStorageOptions> options) : IWebhookLogWriter
 {

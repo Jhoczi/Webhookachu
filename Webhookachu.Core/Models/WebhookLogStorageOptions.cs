@@ -1,4 +1,4 @@
-namespace Webhookachu.Models;
+namespace Webhookachu.Core.Models;
 
 public class WebhookLogStorageOptions
 {

@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace Webhookachu.Models;
+namespace Webhookachu.Core.Models;
 
 public record WebhookLogEntry
 {

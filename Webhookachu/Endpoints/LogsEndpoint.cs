@@ -1,4 +1,4 @@
-using Webhookachu.Services;
+using Webhookachu.Core.Interfaces;
 
 namespace Webhookachu.Endpoints;
 

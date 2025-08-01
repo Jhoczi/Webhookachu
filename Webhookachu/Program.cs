@@ -1,9 +1,7 @@
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.Json;
+using Webhookachu.Core.Interfaces;
+using Webhookachu.Core.Models;
+using Webhookachu.Core.Services;
 using Webhookachu.Endpoints;
-using Webhookachu.Models;
-using Webhookachu.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,5 +21,8 @@ app.MapGet("/", () => "Hello World!");
 app.MapLogEndpoint();
 app.MapLogsEndpoint();
 app.MapSimulateWebhookEndpoint();
+
+app.MapPing();
+app.MapHealth();
 
 app.Run();
